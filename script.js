@@ -4,7 +4,7 @@ const images = [
   { url: 'https://example.com/image2.jpg', description: 'Image 2' },
   { url: 'https://example.com/image3.jpg', description: 'Image 3' },
 ];
-function Image(images) {
+function Images(images) {
   const imagePromises = images.map(image => {
     return new Promise((resolve, reject) => {
       const img = new Image();
